@@ -58,6 +58,23 @@ a {
     color: var(--main-bg-color)
 }
 
+ul{
+    list-style: none;
+}
+
+
+/****** Header ******/
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -75,6 +92,54 @@ a {
 .hebergements {
     width: 65%;
 }
+
+.hebergements-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.hebergements-cards .card {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+}
+
+.hebergements-cards img {
+    width: 99%;
+    height: 120px;
+    width: 230px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.hebergements-cards .card-content {
+    width: 99%;
+    margin-left: 10px;
+}
+
+.hebergements-cards .card-title {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.hebergements-cards .card-subtitle {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.hebergements-cards .card-rating {
+    margin-bottom: 5px;
+}
+
+.afficher-plus {
+    margin:auto;   /** ??? **/
+}
+
+
 
 /****** Populaires ***********/
 .populaires {
@@ -121,6 +186,40 @@ a {
     margin-bottom: 5px;
 }
 
+/****** activites ******/
+
+.activites-cards {
+    display: flex;
+}
+
+/****** footer ******/
+
+footer {
+    background-color: var(--main-bg-color);
+}
+
+.contenu-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 23%;
+    margin-left: 2%;  
+}
+
+.footer.title {
+    margin-bottom: 0px;
+}
+
+.propos,
+.nos-heberg,
+.assist {
+    padding-inline-start: 0;
+    margin: 1;
+    line-height: 2.2;
+}
+
+
+
+
 
 
 
@@ -165,3 +264,34 @@ a {
 @media (max-width: 767.98px) {
     /* ... */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*test bouton*/
+.btn{
+    background-color: white;
+    border: 3px solid  #F2F2F2;
+    border-radius: 100px;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    padding: 15px;
+    
+}
+
+
+
