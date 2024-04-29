@@ -65,23 +65,139 @@ ul{
 
 /****** Header ******/
 
-nav img {
+header img {
     height: 25px;
     width: 70px;
     margin-top: 15px;
 }
 
-nav {
+header {
     display: flex;
+    justify-content: space-between;  
 }
 
-nav ul {
+.nav {
     display: flex;
+    margin: 0;   
+}
+
+.nav li {
+    margin-left: 75px;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.nav li:hover {
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
 }
 
 
 /****** Recherches and Filtres ******/
 
+.rech-fil-txt {
+    margin-bottom: 40px;
+    margin-top: 50px;
+    line-height: 10px;
+}
+
+.rech-fil-txt h1 {
+    font-size: 21px;
+}
+
+.recherches {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;    
+}
+
+.recherches i {
+  border: 1px solid #F2F2F2;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin: 0;
+  padding: 15px;
+  background-color: #F2F2F2;
+  color: black;
+}
+
+.recherches input {
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    border: 1px solid #F2F2F2;
+    margin: 0;
+    padding: 15px;
+    width: 200px;
+}
+
+.recherches button {
+    background-color: #0065FC;
+    color: white;
+    border: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 15px;   
+}
+
+.filtres {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.filtres p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-div {
+    display: flex;
+}
+
+.btn{
+    background-color: white;
+    border: 4px solid  #F2F2F2;
+    border-radius: 100px;
+    width: auto;
+    height: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 25px 15px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.btn i {
+    margin-right: 15px;
+}
+
+.btn:hover {
+    background-color: #DEEBFF;
+}
+
+.dispo {
+    display: flex;
+    align-items: center;  
+    margin-bottom: 15px; 
+}
+
+.dispo p {
+    margin-left: 15px;
+}
+
+.dispo i {
+    border: 2px solid  #F2F2F2;
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
 
 
 /****** Hebergements And Populaires ***********/
@@ -121,8 +237,7 @@ nav ul {
     width: 99%;
     height: 120px;
     width: 230px;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-radius: 20px 20px 0 0;
 }
 
 .hebergements-cards .card-content {
@@ -145,7 +260,7 @@ nav ul {
 }
 
 .afficher-plus {
-    margin:auto;   /** ??? **/
+    margin: 0px;   /** ??? **/
 }
 
 
@@ -232,7 +347,7 @@ nav ul {
     font-size: medium;
 }
 
-/****** footer ******/
+/****** Footer ******/
 
 footer {
     background-color: var(--main-bg-color);
@@ -249,12 +364,24 @@ footer {
     margin-bottom: 0px;
 }
 
-.propos,
+.footer-card {
+    display: flex;
+    flex-direction: column;    
+}
+
+.footer-card p {
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.propos,  /** voir pour le faire en flex **/
 .nos-heberg,
 .assist {
     padding-inline-start: 0;
-    margin: 1;
     line-height: 2.2;
+    margin-top: 8px;
+    font-size: 18px;
 }
 
 
@@ -268,6 +395,9 @@ footer {
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
+  
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -319,19 +449,6 @@ footer {
 
 
 
-
-
-/*test bouton*/
-.btn{
-    background-color: white;
-    border: 3px solid  #F2F2F2;
-    border-radius: 100px;
-    width: 150px;
-    height: 40px;
-    font-weight: bold;
-    padding: 15px;
-    
-}
 
 
 
