@@ -17,12 +17,12 @@ L'objectif principal est de construire la maquette responsive d'un site web pour
 - Optimisation des éléments pour une meilleure expérience utilisateur.
 
 🖥️ Déploiement
-Le projet peut être visualisé localement en ouvrant le fichier index.html dans un navigateur. Aucun serveur ou backend n'est requis pour cette étape.
+- Le projet peut être visualisé localement en ouvrant le fichier index.html dans un navigateur. Aucun serveur ou backend n'est requis pour cette étape.
 
 📐 Installation et configuration
-1. Cloner le dépôt
+1. Cloner le dépôt ; 
 git clone  https://github.com/YuliyaniB/Projet-2-OC.git 
-2. Ouvrir le projet localement
+2. Ouvrir le projet localement : 
 Double-cliquez sur le fichier index.html pour lancer le site dans votre navigateur.
 
 🚀 Améliorations futures
