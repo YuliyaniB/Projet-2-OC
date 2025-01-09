@@ -21,13 +21,12 @@ Le projet peut être visualisé localement en ouvrant le fichier index.html dans
 
 📐 Installation et configuration
 1. Cloner le dépôt
-git clone   
+git clone  https://github.com/YuliyaniB/Projet-2-OC.git 
 2. Ouvrir le projet localement
 Double-cliquez sur le fichier index.html pour lancer le site dans votre navigateur.
 
 🖼️ Aperçu du design
 Voici un aperçu des pages intégrées, respectant la maquette fournie :
-
 Page d'accueil : affichage des logements et des activités disponibles.
 Barre de navigation : adaptative sur les différents appareils.
 
