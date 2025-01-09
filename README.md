@@ -25,11 +25,6 @@ git clone  https://github.com/YuliyaniB/Projet-2-OC.git
 2. Ouvrir le projet localement
 Double-cliquez sur le fichier index.html pour lancer le site dans votre navigateur.
 
-🖼️ Aperçu du design
-Voici un aperçu des pages intégrées, respectant la maquette fournie :
-Page d'accueil : affichage des logements et des activités disponibles.
-Barre de navigation : adaptative sur les différents appareils.
-
 🚀 Améliorations futures
 - Intégration d’un backend pour gérer les réservations en temps réel.
 - Ajout d’une fonctionnalité de filtrage des offres par catégories et localisations.
